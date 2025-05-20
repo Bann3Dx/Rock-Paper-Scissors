@@ -1,0 +1,7 @@
+Επειδή ο κώδικας είναι σε Visual Studio Code, και δεν μπορεί να κάνει Compile και τα 3 αρχεία cpp, στο terminal πρέπει να γράψετε τα εξής:
+
+1:
+g++ -Wall -Wextra -g3 Main.cpp Player.cpp Game.cpp -o output/Main.exe
+
+2:
+./output/Main.exe
